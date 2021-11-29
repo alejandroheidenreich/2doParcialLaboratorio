@@ -56,4 +56,4 @@ int controller_saveLibroAsText(char* path , LinkedList* listaLibro);
 /// @param listaLibro
 /// @param listaEditorial
 /// crea guarda e imprime una lista mapeada, segun el criterio indicado
-controller_mapper(LinkedList* listaLibro, LinkedList* listaEditorial);
+int controller_mapper(LinkedList* listaLibro, LinkedList* listaEditorial);

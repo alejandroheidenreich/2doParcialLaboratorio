@@ -60,6 +60,7 @@ int main(void) {
 				else{
 					printf("\nError al cargar el Archivo\n");
 				}
+				system("pause");
 				break;
 			case 2:
 				IngresarArchivo("Ingrese la direccion del archivo de lista de editoriales que desea cargar (tipo de archivo csv)\n", archivo);
@@ -72,6 +73,7 @@ int main(void) {
 				else{
 					printf("\nError al cargar el Archivo\n");
 				}
+				system("pause");
 				break;
 			case 3:
 				if(flagCargaLibros && flagCargaEditoriales){
@@ -82,6 +84,7 @@ int main(void) {
 				else{
 					printf("Los archivos no fueron cargados\n");
 				}
+				system("pause");
 				break;
 			case 4:
 				if(flagCargaLibros && flagCargaEditoriales){
@@ -90,6 +93,7 @@ int main(void) {
 				else{
 					printf("Los archivos no fueron cargados\n");
 				}
+				system("pause");
 				break;
 			case 5:
 				if(flagCargaLibros && flagCargaEditoriales){
@@ -104,6 +108,7 @@ int main(void) {
 				else{
 					printf("Los archivos no fueron cargados\n");
 				}
+				system("pause");
 				break;
 		}
 
